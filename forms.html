@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{ font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;}
+    </style>
+
+</head>
+<body>
+
+    <form action="">
+        <label for=name>name</label>
+        <input type="text" id="name" name="fname">
+        <br>
+        <label for="surname">surname</label>
+        <input type="text" id="surname" >
+        <br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset data">
+        <br>
+        <br>
+        <input type="radio" name="title">
+        <label for="">ilk soru</label>
+        <br>
+        <input type="radio" name="title">
+        <label for="">ikinci soru</label>
+
+        <br>
+        <br>
+        <h1>check box</h1>
+        <input type="checkbox">
+        <label for="">test</label>
+        <br>
+        <input type="checkbox">
+        <label for="">test</label>
+
+    </form>
+    <br>
+    <br>
+    <form action="" autocomplete="on" target="_blank">
+        <label for="fname">first name</label>
+        <input type="text" id="fname" name="name">
+        <input type="submit" value="save">
+        
+    </form>
+<br>
+<br>
+<form action="">
+
+    <label for="selectbox">My Opinion</label>
+    <br>
+    <select name="selectboxdata" id="selectbox" >
+    <option value="html5">html5</option>
+    <option value="css">css</option>
+    <option value="javascript">javascript</option>
+    <option value="web develope">web develope</option>
+    <option value="html5">html5</option>
+    
+    </select>
+    <br>
+    <br>
+    <textarea name="html" id="css" cols="30" rows="5">
+ 
+    </textarea>
+    <button>clik me</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <fieldset>
+        <legend>personal information</legend>
+        <h3>full name</h3>
+        <div>
+            <input type="text">
+            <label>first name</label>
+            
+        </div>
+        <div>
+            <input type="text">
+            <label>sur name</label>
+            
+        </div>
+        <h3>gender</h3>
+        <div>
+            <input type="radio" value="male">
+            <label>male</label>
+        </div>
+        <div>
+            <input type="radio" value="female">
+            <label for=>female</label>
+        </div>
+    </fieldset>
+    <br>
+    <fieldset> 
+        <legend>skills</legend>
+      <h3>language</h3>
+      <div>
+        <input type="checkbox">
+        <label >html</label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <label >Css</label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <label >java</label>
+      </div>
+    </fieldset>
+
+    <h3>choose your program language</h3>
+    <input type="text" list="mydata">
+    <datalist id="mydata">
+        <option>html</option>
+        <option>css</option>
+        <option>java</option>
+        <option>python</option>
+        <option>ruby</option>
+        <option>php</option>
+
+    </datalist>
+</form>
+<br>
+<form action="" autocomplete="off">
+    <fieldset style="width: 250px;">
+      <legend>HTML input types</legend>
+      <div>
+        <label>color input</label>
+        <input type="color">
+      </div>
+      <div>
+        <label >date input</label>
+        <input type="date">
+      </div>
+      <div>
+        <label >email input</label>
+        <input type="email">
+      </div>
+      <div>
+        <label>file input</label>
+        <input type="file">
+
+      </div>
+      <div>
+        <label>hidden input</label>
+        <input type="hidden" value="behnam">
+      </div>
+      <div>
+        <label >number input</label>
+        <input type="number">
+      </div>
+      <div>
+        <label>password input</label>
+        <input type="password">
+    </div>
+    <div>
+        <label >range</label>
+        <input type="range" min="0" max="100">
+    </div>
+
+    </fieldset>
+</form>
+<hr>
+<form action="" autocomplete="on">
+    <fieldset style="width: 250px;">
+        <legend>HTML Input Attribute</legend>
+
+        <div>
+            <input type="text" value="behnam mahdian nasl" readonly>
+        </div>
+        <div>
+            <button type="button" disabled>click me</button>
+        </div>
+        <div>
+            <input type="text" maxlength="10">
+        </div>
+        <div>
+            <input type="number" min="10" max="20">
+        </div>
+        <div>
+            <input type="file" multiple>
+        </div>
+        <div>
+            <input type="text" placeholder="phone number">
+        </div>
+        <div>
+            <input type="text" value="fill" required>
+        </div>
+        <div>
+            <input type="text" autofocus>
+        </div>
+        <div>
+            <input type="submit" value="submit">
+        </div>
+        
+    </fieldset>
+</form>
+</body>
+</html>
